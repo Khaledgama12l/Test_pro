@@ -14,6 +14,8 @@ html{
  padding: 0px;
 margin: -8px -8px 0 -8px; 
 border: 2px dashed rgb(0, 0, 0);
+/* position: sticky; */
+top: 0;
 }
 
 
@@ -125,6 +127,37 @@ display: block;
   margin-left: 40% ;
   margin-right: 40%;
  }
+
+ .side-bar{
+  border-radius: 25px;
+  position: absolute;
+    /* top: 62vh; */
+    background-color: white;
+    text-align: center;
+    display: block;
+    min-width: 15vw;
+    max-width: 20vw;
+    min-height: 85vh;
+    max-height: 90vh;
+    left: 22px;
+    top: 62vh;
+    background-color: #333;
+
+}
+.side-bar a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  /* text-align: left; */
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 5px;
+}
+.side-bar a:hover {
+  color: 333;
+  background-color: rgb(192, 39, 39);;}
 
  /* footer  */
  .footer{
