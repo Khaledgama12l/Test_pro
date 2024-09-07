@@ -1,0 +1,142 @@
+/* html  */
+html{
+  background-color: #0d6efd;
+}
+
+/* header  */
+
+
+.continar{
+   direction: rtl;
+    background-color: #000000;
+ color: aliceblue;
+ width: 100vw;
+ padding: 0px;
+margin: -8px -8px 0 -8px; 
+border: 2px dashed rgb(0, 0, 0);
+}
+
+
+ .logo-header{
+    width: 5vw;
+    height: 40px;
+   vertical-align: middle;
+   margin-left: 2vw;
+   /* margin-right: -10vw; */
+ }
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}    
+
+
+
+li a, .drop-btn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .drop-btn {
+  background-color: rgb(192, 39, 39);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown-content a:hover {
+  color: 333;
+  background-color: rgb(192, 39, 39);;}
+
+
+.drop{
+  padding: 0;
+  margin: 0;
+
+}
+
+
+
+ /* body  */
+
+ .video-pro{
+    width: 40vw;
+    margin-left: 30%;
+    margin-right: 30% ;
+ }
+ .name-site{
+  background-color: rgb(0, 0, 175) ;
+   color: #ffffff;
+   text-align: center;
+   font-size: 3vw;
+   /* text-shadow: red; */
+   margin: 15px;
+   border: 2px dashed red;
+   border-radius: 35px;
+ }
+ .name-site span{
+   color: #cc0000;
+   text-shadow: 1px 1px 15px yellow;
+  
+ }
+ .name-site h2{
+   color: #acd213;
+   font-size: 3vw;
+   /* text-shadow: rgb(37, 241, 19); */
+
+ }
+
+ .stuts{
+  font-size: 5vw;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  width: 20%;
+  margin-left: 40% ;
+  margin-right: 40%;
+ }
+
+ /* footer  */
+ .footer{
+   background-color: #1d45b4dc;
+ }
+
+
+
+
+
+
+
+
+
+
